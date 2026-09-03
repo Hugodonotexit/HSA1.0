@@ -141,9 +141,9 @@ This model and implementation are provided as a reference for research purposes.
 If you use HSA in your research, please cite:
 
 ```bibtex
-@model{hsa2024,
+@model{hsa2026,
   title={HSA: Hierarchical Softmax Attention for Long-Context Modeling},
-  year={2024}
+  year={2026}
 }
 ```
 
