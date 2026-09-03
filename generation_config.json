@@ -1,0 +1,30 @@
+{
+  "_from_model_config": true,
+  "architectures": [
+    "HSAForCausalLM"
+  ],
+  "bos_token_id": 1,
+  "eos_token_id": 2,
+  "pad_token_id": 0,
+  "decoding_strategy": "greedy",
+  "do_sample": false,
+  "early_stopping": true,
+  "max_length": 512,
+  "max_new_tokens": 256,
+  "min_length": 0,
+  "num_beams": 1,
+  "num_beam_groups": 1,
+  "length_penalty": 1.0,
+  "diversity_penalty": 0.0,
+  "repetition_penalty": 1.0,
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "top_k": 50,
+  "typical_p": 1.0,
+  "use_cache": true,
+  "num_return_sequences": 1,
+  "output_scores": false,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "return_dict_in_generate": false
+}
